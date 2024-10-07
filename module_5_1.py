@@ -22,8 +22,8 @@ class House:
         return f'Название {self.name}, кол-во этажей: {self.number_of_floors}'
 
 
-    # def __eq__(self, other):
-    #     return self.number_of_floors == other.number_of_floors
+    def __eq__(self, other):
+        return self.number_of_floors == other.number_of_floors
 
     def __it__(self, other):
          return self.number_of_floors < other.number_of_floors
